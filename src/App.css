@@ -39,10 +39,10 @@ body {
 .task_list {
   counter-reset: task-counter;
   padding: 20px;
-  overflow: hidden;
 }
 
 .task_list li {
+  overflow: hidden;
   counter-increment: task-counter;
   position: relative;
   padding-left: 2rem;
