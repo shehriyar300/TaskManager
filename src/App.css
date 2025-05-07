@@ -38,6 +38,8 @@ body {
 }
 .task_list {
   counter-reset: task-counter;
+  padding: 20px;
+  overflow: hidden;
 }
 
 .task_list li {
